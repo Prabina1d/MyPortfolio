@@ -2,7 +2,7 @@ function About() {
   return (
     <section>
       <h2>About Me</h2>
-      <p>This is my about section.</p>
+      <p>Computer Engineer | AI & Machine Learning Enthusiast | Developer | React & Django | Building intelligent solutions with code..</p>
     </section>
   );
 }
