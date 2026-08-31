@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "My First Blog",
+    "description": "This is my first blog post."
+  },
+  {
+    "id": 2,
+    "title": "Learning React",
+    "description": "Today I learned about React components."
+  },
+  {
+    "id": 3,
+    "title": "My Portfolio Journey",
+    "description": "I built my portfolio using React and Vite."
+  }
+]
