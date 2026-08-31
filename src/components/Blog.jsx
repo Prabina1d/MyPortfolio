@@ -1,49 +1,21 @@
-import { useEffect, useState } from "react";
-import { getPosts } from "../services/blogApi";
+import blogs from "../data/blogs.json";
 
 function Blog() {
-  const [posts, setPosts] = useState([]);
-
-  useEffect(() => {
-    const loadPosts = async () => {
-      try {
-        const data = await getPosts();
-        setPosts(data);
-      } catch (error) {
-        console.error(error);
-      }
-    };
-
-    loadPosts();
-  }, []);
-
   return (
-    <section id="blog" className="section">
-      <div className="section-heading">
-        <p>MY BLOG</p>
-        <h2>Latest Posts</h2>
-      </div>
+    <section>
+      <h1>MY BLOG</h1>
 
-      <div className="projects-grid">
-        {posts.map((post) => (
-          <article className="project-card" key={post.id}>
-            <h3>{post.title}</h3>
-
-            <p>{post.body}</p>
-
-            <a
-              href={`https://jsonplaceholder.typicode.com/posts/${post.id}`}
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              Read More →
-            </a>
-          </article>
-        ))}
-      </div>
+      {blogs.map((blog) => (
+        <article key={blog.id}>
+          <h2>{blog.title}</h2>
+          <p>{blog.description}</p>
+          <button>Read More →</button>
+        </article>
+      ))}
     </section>
   );
 }
 
 export default Blog;
+
+
