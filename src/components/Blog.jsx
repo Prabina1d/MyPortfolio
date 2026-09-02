@@ -2,7 +2,7 @@ import blogs from "../../blogs.json";
 
 function Blog() {
   return (
-    <section>
+    <section id= "blog">
       <h1>MY BLOG</h1>
 
       {blogs.map((blog) => (
