@@ -2,7 +2,7 @@ import blogs from "../../blogs.json";
 
 function Blog() {
   return (
-    <section id= "blog">
+    <section id= "blog" className="section">
        <div className="section-heading">
       <h1>MY BLOG</h1>
          </div>
@@ -10,7 +10,7 @@ function Blog() {
 
     <div className="projects-grid">
       {blogs.map((blog) => (
-        <article key={blog.id}>
+        <article className="project-card" key={blog.id}>
           <h2>{blog.title}</h2>
           <p>{blog.description}</p>
           <button>Read More. →</button>
