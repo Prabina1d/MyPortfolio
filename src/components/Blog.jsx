@@ -1,4 +1,4 @@
-import blogs from "../data/blogs.json";
+import blogs from "../../blogs.json";
 
 function Blog() {
   return (
