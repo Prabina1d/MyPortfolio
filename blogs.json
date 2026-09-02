@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "title": "My First Blog",
-    "description": "This is my first blog post."
+    "title": "My First Blog , flood 2083",
+    "description": "This is my first blog post about flood 2083."
   },
   {
     "id": 2,
-    "title": "Learning React",
-    "description": "Today I learned about React components."
-  },
+    "title": "Climate change is a major environmental problem affecting Nepal.  ",
+    "description": "Climate change is affecting Nepal through floods, droughts, and melting glaciers.\nWe should protect the environment and use renewable energy."
+},
   {
     "id": 3,
     "title": "My Portfolio Journey",
-    "description": "I built my portfolio using React and Vite."
+    "description": "I built my portfolio ! Welcome to my Portfolio !."
   }
 ]
